@@ -1,0 +1,12 @@
+{
+    "artifact_name": "my-application",
+    "config": {},
+    "target_overrides": {
+        "*": {
+            
+            "target.flash_dual_bank": true,
+            "platform.stdio-baud-rate": 115200,
+            "platform.fatal-error-auto-reboot-enabled": true
+        }
+    }
+}
